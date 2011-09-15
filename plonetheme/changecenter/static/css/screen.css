@@ -1,5 +1,6 @@
 /* @override 
-	http://localhost:8080/Plone/++theme++plonetheme.changecenter/css/screen.css */
+	http://localhost:8080/Plone/++theme++plonetheme.changecenter/css/screen.css
+	http://64.18.217.181:8908/Plone/++theme++plonetheme.changecenter/css/screen.css */
 
 body {
 	background: #E6E3DA;
@@ -64,10 +65,10 @@ body {
 }
 
 #nav ul {
-	width: 75%;
+	width: 82%;
 	float: left;
 	position: relative;
-	top: 30%;
+	top: 35%;
 	text-transform: uppercase;
 	margin-left: 15px;
 	list-style: disc;
@@ -94,11 +95,11 @@ body {
 
 
 #nav ul li a {
-	font: 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 14px "Lucida Grande", Lucida, Verdana, sans-serif;
 	color: gray;
-	padding-right: 15px;
-	padding-left: 10px;
-	padding-top: 10px;
+	padding-right: 17px;
+	padding-left: 13px;
+	padding-top: 12px;
 }
 
 /* @group Quick Search */
@@ -373,6 +374,7 @@ div.carousel-body p {
 	color: #CDCDC3;
 	font-size: 1.2em;
 	padding-top: 10px;
+	min-height: 50px;
 }
 
 .carousel-banner-1 {
