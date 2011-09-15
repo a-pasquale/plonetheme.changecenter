@@ -304,11 +304,10 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 #portlets-above {
   clear:both;
   position: relative;
-  right: -3px;
+  left: -17px;
   -webkit-border-top-right-radius: 15px;
   -moz-border-radius-topright: 15px;
   border-top-right-radius: 15px;
-  
 }
 #portlets-above dl.portlet dd.portletItem,
 #portlets-above dl.portlet dd.portletFooter,
@@ -316,18 +315,19 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     padding: 0;
 }
 #portlets-above p img{
-  -webkit-border-top-right-radius: 15px;
-  -moz-border-radius-topright: 15px;
-  border-top-right-radius: 15px;
-  overflow: hidden;
-width: 720px;
+  	-webkit-border-top-right-radius: 15px;
+  	-moz-border-radius-topright: 15px;
+  	border-top-right-radius: 15px;
+  	overflow: hidden;
+	width: 720px;
+	right: 0;
 }
 
 #portlets-above dt.portletHeader {
 	position: absolute;
 	top: 16px;
 	background: none;
-	left: 34%;
+	left: 36%;
 }
 
 #portlets-above .managePortletsAboveLink {
