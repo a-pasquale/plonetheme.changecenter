@@ -46,6 +46,8 @@ body {
 #slogan h2 {
 	color: #153462;
 	font: 1.35em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	background: none;
+	text-indent: 0;
 }
 /* @end */
 
@@ -68,7 +70,7 @@ body {
 	width: 82%;
 	float: left;
 	position: relative;
-	top: 35%;
+	top: 20%;
 	text-transform: uppercase;
 	margin-left: 15px;
 	list-style: disc;
@@ -280,7 +282,7 @@ input.searchButton {
 
 #foot-logo {
 	margin-left: 25px;
-    padding-top: 10px;
+    padding-top: 15px;
     float: left;
 }
 
