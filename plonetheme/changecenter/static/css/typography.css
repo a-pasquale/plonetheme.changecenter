@@ -14,6 +14,28 @@ h2 {
 	font-size: 2em;
 }
 
+h3 {
+	font: normal 2em/1.5em "myriad-pro",sans-serif;
+	color: #355DA6;
+}
+
+#content a:link,
+dl.portlet a:link {
+    color: #F26722;
+    border-bottom: none;
+}
+
+#content a:visited,
+dl.portlet a:visited {
+    color: #F26722;
+    border-bottom: none;
+}
+
+#content a:hover,
+dl.portlet a:hover {
+    color: #355DA6 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
+}
+
 /* @end */
 
 /* @group Portlets */
@@ -37,4 +59,14 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 #portal-siteactions li a:hover {
     color: #355DA6
 }
+/* @end */
+
+/* @group Person */
+
+body.portaltype-person .documentFirstHeading {
+	font: normal 2em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #355DA6;
+	
+}
+
 /* @end */
