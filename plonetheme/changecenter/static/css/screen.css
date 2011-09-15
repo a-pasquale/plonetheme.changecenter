@@ -302,10 +302,10 @@ dl.portlet ul.navTreeLevel1 .navTreeItem {
 }
 
 dl.portlet ul.navTree .navTreeCurrentItem {
-    background-color: #ddd;
-    border-left: 1em solid #ddd;
-    margin-left: -1em;
-    margin-right: -1em;
+    background-color: white;
+    border-left: none;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 /* @end */

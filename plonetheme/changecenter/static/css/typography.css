@@ -25,6 +25,10 @@ dl.portlet ul.navTree li a:hover {
     color: #355DA6 !important;
 }
 
+
+dl.portlet ul.navTree .navTreeCurrentItem {
+	color: #F26722;
+}
 /* @end */
 
 /* @group Footer */
