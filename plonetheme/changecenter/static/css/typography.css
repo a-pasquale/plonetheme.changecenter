@@ -33,7 +33,7 @@ dl.portlet a:link {
     border-bottom: none;
 }
 
-#content a:visited,
+#content p a:visited,
 dl.portlet a:visited {
     color: #F26722;
     border-bottom: none;

@@ -582,22 +582,28 @@ body.portaltype-person div#content {
 	padding-top: 20px;
 }
 
-body.portaltype-person #content-core div.plain, body.portaltype-person #content h1, body.portaltype-person #content .documentDescription{
-	padding-left: 200px;
+body.portaltype-person #content-core div.plain, body.portaltype-person #content h1, body.portaltype-person #content .documentDescription {
 	position: relative;
 }
 
 body.portaltype-person #content .documentDescription {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	position: relative;
+	display: block;
 }
 
-body.portaltype-person #content-core div.plain p {
+
+body.portaltype-person #content-core div.plain {
 	padding-top: 1em;
 	padding-bottom: 2em;
-	border-top: 1px dotted gray;
-	border-bottom: 1px dotted gray;
-	
+	position: relative;
+	display: inline;
 }
 
+body.portaltype-person div#content div.newsImageContainer{
+	position: relative;
+	z-index: 100;
+	display: inline;
+}
 /* @end */
