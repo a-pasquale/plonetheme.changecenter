@@ -304,9 +304,8 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 
 #portlets-above {
   clear:both;
-  float: right;
   position: relative;
-  right: -11px;
+  right: -3px;
   -webkit-border-top-right-radius: 15px;
   -moz-border-radius-topright: 15px;
   border-top-right-radius: 15px;
