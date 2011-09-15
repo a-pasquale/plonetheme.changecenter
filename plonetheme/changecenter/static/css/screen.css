@@ -277,9 +277,27 @@ input.searchButton {
 }
 
 #foot-logo {
-	height: 100%;
-	background: transparent url('../images/columbia-logo.jpg') no-repeat left center;
 	margin-left: 25px;
+    padding-top: 10px;
+    float: left;
+}
+
+#foot-menu {
+    float: right;
+    margin-right: 25px;
+    padding-top: 20px;
+}
+
+#foot-menu li {
+    border-right: 1px solid gray;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#foot-menu li:last-child {
+    border-right: 0;
+}
+#portal-siteactions a {
+    color: gray;
 }
 
 #copyright {

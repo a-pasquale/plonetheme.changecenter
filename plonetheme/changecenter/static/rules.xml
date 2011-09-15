@@ -36,6 +36,7 @@
   <copy content-children='//*[@id="portal-column-one"]' theme='//*[@id="sidebar"]' />
   <copy content-children='//*[@id="portal-footer"]' theme='//*[@id="col-left"]' />
   <append content='//*[@id="portal-colophon"]' theme='//*[@id="footer-bottom"]' />
+  <copy css:content="#portal-siteactions" css:theme="#foot-menu" />
   <drop css:theme=".col-two"/>
   <drop css:theme=".col-three"/>
 
