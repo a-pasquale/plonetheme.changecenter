@@ -58,7 +58,7 @@ body {
 }
 
 #nav ul {
-	width: 82%;
+	width: 800px;
 	float: left;
 	position: relative;
 	top: 20%;
@@ -312,7 +312,11 @@ dl.portlet ul.navTree .navTreeCurrentItem {
   border-top-right-radius: 15px;
   
 }
-
+#portlets-above dl.portlet dd.portletItem,
+#portlets-above dl.portlet dd.portletFooter,
+#portlets-above dl.portletError dd {
+    padding: 0;
+}
 #portlets-above p img{
   -webkit-border-top-right-radius: 15px;
   -moz-border-radius-topright: 15px;
@@ -321,8 +325,11 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 width: 720px;
 }
 
-#portlets-above .portletWrapper {
-
+#portlets-above dt.portletHeader {
+	position: absolute;
+	top: 16px;
+	background: none;
+	left: 34%;
 }
 
 #portlets-above .managePortletsAboveLink {
@@ -549,6 +556,10 @@ div.collage_item_1 .collage-image {
 /* @end */
 
 div.collage_type_topic.collage_view_summary h2 {
+	display: none;
+}
+
+div.collage_type_topic.collage_view_summary p.description-topic {
 	display: none;
 }
 
