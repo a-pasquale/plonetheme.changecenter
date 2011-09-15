@@ -298,7 +298,7 @@ input.searchButton {
 #foot-menu li:last-child {
     border-right: 0;
 }
-#portal-siteactions a {
+#foot-menu ul li a {
     color: gray;
 }
 
