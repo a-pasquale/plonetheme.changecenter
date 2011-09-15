@@ -1,6 +1,7 @@
 /* @override 
 	http://localhost:8080/Plone/++theme++plonetheme.changecenter/css/screen.css
-	http://64.18.217.181:8908/Plone/++theme++plonetheme.changecenter/css/screen.css */
+	http://64.18.217.181:8908/Plone/++theme++plonetheme.changecenter/css/screen.css
+	http://beta.changecenter.org/++theme++plonetheme.changecenter/css/screen.css */
 
 body {
 	background: #E6E3DA;
@@ -310,6 +311,51 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 
 /* @end */
 
+/* @group Content Well Portlets */
+
+#portlets-above {
+  clear:both;
+  float: right;
+  position: relative;
+  right: -11px;
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  border-top-right-radius: 15px;
+  
+}
+
+#portlets-above p img{
+  -webkit-border-top-right-radius: 15px;
+  -moz-border-radius-topright: 15px;
+  border-top-right-radius: 15px;
+  
+}
+
+#portlets-above .portletWrapper {
+
+}
+
+#portlets-above .managePortletsAboveLink {
+  clear:both;
+}
+
+#portlets-below {
+  margin-top:80px;
+  clear:both;
+  width:100%;
+}
+
+#portlets-below .portletWrapper {
+  float:left;
+  width:200px;
+}
+
+#portlets-below .managePortletsBelowLink {
+  clear:both;
+}
+
+/* @end */
+
 /* @end */
 
 /* @end */
@@ -505,5 +551,7 @@ div.collage_item_1 .collage-image {
 	-moz-border-radius-topright: 15px;
 	border-top-right-radius: 15px;
 }
+
+
 
 /* @end */
