@@ -264,6 +264,54 @@ input.searchButton {
 	
 }
 
+/* @group Portlets */
+
+div#portal-column-one {
+	margin-top: 30px;
+}
+
+dl.portlet {
+	padding-left: 20px;
+}
+
+/* @group Navigation portlet */
+
+dl.portlet ul.navTree li a {
+    border: none;
+    display: block;
+    zoom: 1;
+}
+
+dl.portlet ul.navTree li a:hover {
+
+}
+
+dl.portletNavigationTree dd.portletItem {
+    padding: 0;
+}
+
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+    padding: 0.25em 0;
+    border-bottom: 0.1em dotted #ddd;
+    line-height: 2em;
+}
+
+dl.portlet ul.navTreeLevel1 .navTreeItem {
+    padding-left: 0.5em;
+    line-height: 2em;
+}
+
+dl.portlet ul.navTree .navTreeCurrentItem {
+    background-color: #ddd;
+    border-left: 1em solid #ddd;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+/* @end */
+
+/* @end */
+
 /* @end */
 
 /* @group Footer */
@@ -440,6 +488,22 @@ div.carousel-body p {
 }
 .carousel-settings-introduction {
     margin-bottom: 1em;
+}
+
+/* @end */
+
+/* @group Collage */
+
+div.collage-row {
+	position: relative;
+	left: 14px;
+}
+div.collage_item_1 .collage-image {
+	position: relative;
+	bottom: 12px;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-right-radius: 15px;
 }
 
 /* @end */
