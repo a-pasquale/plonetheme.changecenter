@@ -576,4 +576,28 @@ div.collage_type_topic.collage_view_summary div.tileItem {
 
 /* @end */
 
+/* @group Person */
 
+body.portaltype-person div#content {
+	padding-top: 20px;
+}
+
+body.portaltype-person #content-core div.plain, body.portaltype-person #content h1, body.portaltype-person #content .documentDescription{
+	padding-left: 200px;
+	position: relative;
+}
+
+body.portaltype-person #content .documentDescription {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+body.portaltype-person #content-core div.plain p {
+	padding-top: 1em;
+	padding-bottom: 2em;
+	border-top: 1px dotted gray;
+	border-bottom: 1px dotted gray;
+	
+}
+
+/* @end */

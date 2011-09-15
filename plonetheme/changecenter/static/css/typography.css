@@ -4,6 +4,9 @@
 	
 /* @group General Styles */
 
+h1 {	
+}
+
 h2 {
 	background: transparent url('../images/h2-arrow.png') no-repeat left center;
 	text-indent: 30px;
@@ -24,7 +27,7 @@ h4 {
 	font: normal 1.25em/1.5em "myriad-pro",sans-serif;
 }
 
-#content a:link,
+#content p a:link,
 dl.portlet a:link {
     color: #F26722;
     border-bottom: none;
@@ -113,10 +116,26 @@ body.portaltype-person .documentFirstHeading {
 	
 }
 
+body.portaltype-person #content h1 {
+	font:  2.5em "myriad-pro",sans-serif;
+	font-weight: 300;
+	color: #355DA6;
+	margin-top: 0;
+}
+body.portaltype-person #content .documentDescription {
+	color: #333;
+	font: normal 1.25em/1.5em "myriad-pro",sans-serif;
+	
+}
+
 /* @end */
+
+/* @group Carousel */
 
 div.carousel-text .carousel-title {
 	color: white;
 	font: 2em/1.5em "myriad-pro",sans-serif;
 	font-weight: 300;
 }
+
+/* @end */
