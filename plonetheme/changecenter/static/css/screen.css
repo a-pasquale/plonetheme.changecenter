@@ -25,10 +25,10 @@ body {
 
 #logo {
 	float: left;
-	background: transparent url('../images/logo.jpg') no-repeat left center;
 	height: 100%;
 	width: 35%;
 	margin-left: 20px;
+    margin-top: 10px;
 }
 
 #slogan {

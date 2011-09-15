@@ -21,7 +21,6 @@
   <replace content="/html/head/base" theme="/html/head/base" />
   <replace content="/html/head/meta" theme="/html/head/meta" />
   <prepend content='/html/head' theme='/html/head' />
-  <copy attributes="href title" css:content='#portal-logo' css:theme='#logo a' />
   <copy attributes="id class dir" css:theme="body" css:content="body"/>
   <prepend css:content="#portal-searchbox" css:theme="#quick-search" />
   <append content='//*[@id="portal-globalnav"]' theme='//*[@id="nav"]' />
