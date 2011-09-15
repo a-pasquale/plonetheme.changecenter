@@ -1,0 +1,367 @@
+/* @override 
+	http://localhost:8080/Plone/++theme++plonetheme.changecenter/css/screen.css */
+
+body {
+	background: #E6E3DA;
+}
+
+#wrap {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100%;
+	position: relative;
+}
+
+/* @group Header Group */
+
+#header {
+	height: 112px;
+	background: white;
+	margin-bottom: 4px;
+	position: relative;
+}
+
+#logo {
+	float: left;
+	background: transparent url('../images/logo.jpg') no-repeat left center;
+	height: 100%;
+	width: 35%;
+	margin-left: 20px;
+}
+
+#slogan {
+	float: right;
+	position: relative;
+	width: 52%;
+	top: 27%;
+}
+
+#slogan h1 {
+	color: gray;
+	font: 1.75em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+#slogan h2 {
+	color: #153462;
+	font: 1.35em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+/* @end */
+
+/* @group Navigation Group */
+
+#nav {
+	height: 45px;
+	background: white;
+	position: relative;
+	border: none;
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+#nav ul {
+	width: 75%;
+	float: left;
+	position: relative;
+	top: 30%;
+	text-transform: uppercase;
+	margin-left: 15px;
+	list-style: disc;
+	list-style-type: disc;
+	list-style-image: url('../images/bullet.gif');
+	list-style-position: outside;
+}
+
+#nav ul li.plain, #nav ul li.selected {
+	position: relative;
+	display: inline;
+	float: left;
+	background: transparent url('../images/bullet.gif') no-repeat right center;
+}
+
+#nav ul li.selected a {
+	color: #153462;
+	background: transparent url('../images/orange-arrow.gif') no-repeat 45% top;
+}
+
+#nav ul li#portaltab-publications {
+	background: none;
+}
+
+
+#nav ul li a {
+	font: 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: gray;
+	padding-right: 15px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+/* @group Quick Search */
+
+#quick-search {
+	float: right;
+	height: 45px;
+	width: 155px;
+	background: #C5C5C5;
+	-webkit-border-bottom-right-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	border-bottom-right-radius: 15px;
+	position: relative;
+}
+
+#portal-searchbox {
+	margin-top: 10px;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	width: 100%;
+}
+
+div.LSBox {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+input.searchField {
+  -webkit-appearance: searchfield;
+   -moz-appearance: searchfield;
+   
+}
+
+#searchGadget.searchField {
+    width: 120px;
+    height: 20px;
+	margin-right: auto;
+	position: relative;
+	margin-left: auto;
+}
+
+.LSBox .searchSection {
+	display: none;
+}
+
+
+input.searchButton {
+	display: none;
+}
+
+/* @group LiveSearch */
+
+#LSResult {
+	width: 300px;
+    position: relative;
+    right: 10;
+    background: white;
+	text-align: left;
+	margin: 10px 0 0 -150px;
+	z-index: 1000;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border: 2px solid gray;
+	-moz-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.68);
+	-webkit-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.68);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.68);
+}
+
+#LSResult:after {
+	content:"";
+	position:absolute;
+	bottom:-15px; /* value = - border-top-width - border-bottom-width */
+	left:50px; /* controls horizontal position */
+	border-width:15px 15px 0; /* vary these values to change the angle of the vertex */
+	border-style:solid;
+	border-color:#f3961c transparent;
+	/* reduce the damage in FF3.0 */
+	display:block; 
+	width:0;
+	top:-15px; /* value = - border-top-width - border-bottom-width */
+	right:50px; /* controls horizontal position */
+	bottom:auto;
+	left:auto;
+	border-width:0 15px 15px; /* vary these values to change the angle of the vertex */
+	border-color:gray transparent;
+	
+}
+
+#LSResult fieldset.livesearchContainer {
+	width: 300px;
+	position: relative;
+	border: none;
+	padding: 5px;
+	margin: 0;
+}
+
+#LSResult fieldset {
+    padding: 1em 0 0;
+    border: 0.1em solid #ccc;
+}
+
+#livesearchLegend {
+    display: none;
+}
+
+#LSResult .LSDescr {
+    font-size: 85%;
+    color: #666;
+}
+
+.LSRow,
+#LSNothingFound {
+    display: block;
+    padding: 0.5em 0 0.5em 1em;
+    white-space: normal;
+    width: 100%;
+}
+
+.LSHighlight {
+    background: #ddd;
+}
+
+#LSResult li.lsRow div.LSDescr {
+	
+}
+
+/* @end */
+
+/* @end */
+
+/* @end */
+
+/* @group Content Area */
+
+#content-wrap {
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+	margin-top: 25px;
+	background-color: white;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	
+}
+
+#main {
+	height: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+#portal-column-content {
+	position: relative;
+	
+}
+
+/* @end */
+
+/* @group Footer */
+
+#footer-wrap {
+	height: 60px;
+	background: #c5c5c5;
+	margin-top: 15px;
+	-webkit-border-bottom-right-radius: 15px;
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomright: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+#foot-logo {
+	height: 100%;
+	background: transparent url('../images/columbia-logo.jpg') no-repeat left center;
+	margin-left: 25px;
+}
+
+#copyright {
+	height: 20px;
+	float: right;
+	margin-bottom: 50px;
+	position: relative;
+	color: gray;
+	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding-top: 5px;
+	padding-right: 20px;
+}
+
+/* @end */
+
+/* @group Home Page Carousel */
+
+div.carousel {
+    position: relative;
+    margin: 0;
+    width: 980px;
+	right: 12px;
+		border-bottom: 4px solid #143C6F;
+	
+}
+
+
+.carousel-banner {
+    overflow: hidden;
+}
+
+.carousel-image {
+	width: 50%;
+	float: left;
+}
+.carousel-image img{
+	overflow: hidden;
+	-webkit-border-top-left-radius: 15px;
+	-moz-border-radius-topleft: 15px;
+	border-top-left-radius: 15px;
+	
+}
+ .carousel-banner div.carousel-text {
+	height: 100%;
+    background-color: #375FA4;
+    padding: 0;
+    width: 50%;
+	float: right;
+	position: relative;
+	float: right;
+	-webkit-border-top-right-radius: 15px;
+	-moz-border-radius-topright: 15px;
+	border-top-right-radius: 15px;
+}
+.carousel-banner-1 {
+	display: block;
+}
+.carousel-pager {
+    margin: 0.75em 0;
+    position: absolute;
+    top:  280px;
+    left: 75%;
+}
+.carousel-pager-item,
+.carousel-pager-button-prev,
+.carousel-pager-button-next {
+    background-color: #DDDDDD;
+    padding: 0.25em 0.5em;
+}
+.carousel-pager-item-active {
+    background-color: #75AD0A;
+}
+.carousel-pager-item-active:link,
+.carousel-pager-item-active:visited,
+.carousel-pager-item-active .carousel-title {
+    color: white;
+}
+.carousel-pager-item-classic {
+    cursor: pointer;
+}
+.carousel-settings-introduction {
+    margin-bottom: 1em;
+}
+
+/* @end */
