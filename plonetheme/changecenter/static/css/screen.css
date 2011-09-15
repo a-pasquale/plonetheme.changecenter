@@ -154,6 +154,7 @@ input.searchButton {
 /* @group LiveSearch */
 
 #LSResult {
+    display: none;
 	width: 300px;
     position: relative;
     right: 10;
