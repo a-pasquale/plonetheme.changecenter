@@ -58,6 +58,11 @@ dl.portlet a:hover {
 	color: gray;
 }
 
+#nav ul li a:hover{
+    color: #F26722;
+
+}
+
 /* @end */
 
 /* @group Portlets */
@@ -73,6 +78,13 @@ dl.portlet ul.navTree li a:hover {
 
 dl.portlet ul.navTree .navTreeCurrentItem {
 	color: #F26722;
+}
+
+#portlets-above dt.portletHeader {
+	color: white;
+	font: 2.5em "myriad-pro",sans-serif;
+	font-weight: 300;
+	
 }
 /* @end */
 
