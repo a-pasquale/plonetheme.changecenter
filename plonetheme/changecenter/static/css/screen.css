@@ -304,9 +304,9 @@ input.searchButton {
 
 #copyright {
 	height: 20px;
-	float: right;
+	right: 0;
 	margin-bottom: 50px;
-	position: relative;
+	position: absolute;
 	color: gray;
 	font: 12px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	padding-top: 5px;
