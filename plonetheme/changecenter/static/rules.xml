@@ -16,19 +16,19 @@
   <notheme if-path="table.htm"/>
   <notheme if-path="attributes.htm"/>
 
-  <drop theme='//*[@id="slogan"]' />
+  <drop content='//*[@id="portal-breadcrumbs"]' />
   <replace content="/html/head/title" theme="/html/head/title" />
   <replace content="/html/head/base" theme="/html/head/base" />
   <replace content="/html/head/meta" theme="/html/head/meta" />
   <prepend content='/html/head' theme='/html/head' />
   <copy attributes="href title" css:content='#portal-logo' css:theme='#logo a' />
   <copy attributes="id class dir" css:theme="body" css:content="body"/>
-  <replace css:content="#portal-searchbox" css:theme="#quick-search" />
-  <copy content='//*[@id="portal-globalnav"]' theme='//*[@id="nav"]' />
+  <prepend css:content="#portal-searchbox" css:theme="#quick-search" />
+  <append content='//*[@id="portal-globalnav"]' theme='//*[@id="nav"]' />
   <drop attributes="id" css:content="#portal-globalnav"/>
   <prepend content='//*[@id="portal-personaltools-wrapper"]' theme='//*[@id="container"]' />
   <prepend css:content="#viewlet-above-content" css:theme="#text"/>
-  <before css:contentt="#edit-bar" css:theme="#text"/>
+  <before css:content="#edit-bar" css:theme="#text"/>
 
   <copy css:content-children="#portal-columns" css:theme="#main"/>
 
