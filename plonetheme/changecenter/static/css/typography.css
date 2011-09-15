@@ -12,6 +12,7 @@ h2 {
 	font-weight: normal;
 	font-style: normal;
 	font-size: 2em;
+	font-family: myriad-pro, sans-serif;
 }
 
 h3 {
@@ -34,6 +35,27 @@ dl.portlet a:visited {
 #content a:hover,
 dl.portlet a:hover {
     color: #355DA6 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
+}
+
+/* @end */
+
+/* @group Header and Nav */
+
+#slogan h1 {
+	color: gray;
+	font: 1.75em "myriad-pro",sans-serif;
+}
+
+#slogan h2 {
+	color: #153462;
+	font: 1.35em "myriad-pro",sans-serif;
+	background: none;
+	text-indent: 0;
+}
+
+#nav ul li a {
+	font: 14px "myriad-pro",sans-serif;
+	color: gray;
 }
 
 /* @end */
@@ -64,9 +86,15 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 /* @group Person */
 
 body.portaltype-person .documentFirstHeading {
-	font: normal 2em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: normal 2em/1.5em "myriad-pro",sans-serif;
 	color: #355DA6;
 	
 }
 
 /* @end */
+
+div.carousel-text .carousel-title {
+	color: white;
+	font: 2em/1.5em "myriad-pro",sans-serif;
+	font-weight: 300;
+}

@@ -39,17 +39,7 @@ body {
 	top: 27%;
 }
 
-#slogan h1 {
-	color: gray;
-	font: 1.75em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-}
 
-#slogan h2 {
-	color: #153462;
-	font: 1.35em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	background: none;
-	text-indent: 0;
-}
 /* @end */
 
 /* @group Navigation Group */
@@ -98,10 +88,8 @@ body {
 
 
 #nav ul li a {
-	font: 14px "Lucida Grande", Lucida, Verdana, sans-serif;
-	color: gray;
-	padding-right: 17px;
-	padding-left: 13px;
+	padding-right: 14px;
+	padding-left: 10px;
 	padding-top: 12px;
 }
 
