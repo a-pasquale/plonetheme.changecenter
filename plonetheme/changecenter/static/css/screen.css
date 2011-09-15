@@ -257,7 +257,9 @@ input.searchButton {
 	height: 100%;
 	position: relative;
 	margin: 0;
-	padding: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	padding-left: 0;
 }
 
 #portal-column-content {
@@ -328,7 +330,8 @@ dl.portlet ul.navTree .navTreeCurrentItem {
   -webkit-border-top-right-radius: 15px;
   -moz-border-radius-topright: 15px;
   border-top-right-radius: 15px;
-  
+  overflow: hidden;
+width: 720px;
 }
 
 #portlets-above .portletWrapper {
@@ -359,6 +362,8 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 /* @end */
 
 /* @end */
+
+
 
 /* @group Footer */
 
@@ -540,9 +545,11 @@ div.carousel-body p {
 
 /* @group Collage */
 
+#collage {
+	padding-right: 10px;
+}
 div.collage-row {
 	position: relative;
-	left: 14px;
 }
 div.collage_item_1 .collage-image {
 	position: relative;
@@ -552,6 +559,22 @@ div.collage_item_1 .collage-image {
 	border-top-right-radius: 15px;
 }
 
+div.collage_type_topic.collage_view_summary h2 {
+	display: none;
+}
 
+div.collage_type_topic.collage_view_summary div.tileItem {
+	border-top: 1px dotted silver;
+	position: relative;
+	padding-top: 1em;
+}
+
+#content img.tileImage,
+#content div.newsImageContainer {
+    float: left;
+    margin: 0 1em 0.5em 0;
+}
 
 /* @end */
+
+
