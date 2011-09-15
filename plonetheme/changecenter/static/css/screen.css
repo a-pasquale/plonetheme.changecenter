@@ -150,8 +150,7 @@ input.searchField {
 	display: none;
 }
 
-
-input.searchButton {
+.LSBox input.searchButton {
 	display: none;
 }
 
