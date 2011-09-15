@@ -1,6 +1,6 @@
 /* @override 
-	http://localhost:8080/Plone/++theme++plonetheme.changecenter/css/typography.css
-	http://64.18.217.181:8908/Plone/++theme++plonetheme.changecenter/css/typography.css */
+	http://beta.changecenter.org/++theme++plonetheme.changecenter/css/typography.css */
+
 	
 /* @group General Styles */
 
@@ -17,6 +17,11 @@ h2 {
 h3 {
 	font: normal 2em/1.5em "myriad-pro",sans-serif;
 	color: #355DA6;
+}
+
+h4 {
+	color: #333;
+	font: normal 1.25em/1.5em "myriad-pro",sans-serif;
 }
 
 #content a:link,
@@ -36,6 +41,12 @@ dl.portlet a:hover {
     color: #355DA6 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
 }
 
+hr {
+	color: #fff; 
+	background-color: #fff; 
+	border: 1px dotted gray; 
+	border-style: none none dotted; 
+}
 /* @end */
 
 /* @group Header and Nav */

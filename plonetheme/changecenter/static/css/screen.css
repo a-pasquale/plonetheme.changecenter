@@ -1,6 +1,6 @@
 /* @override 
-	http://localhost:8080/Plone/++theme++plonetheme.changecenter/css/screen.css
-	http://64.18.217.181:8908/Plone/++theme++plonetheme.changecenter/css/screen.css */
+	http://beta.changecenter.org/++theme++plonetheme.changecenter/css/screen.css */
+
 
 body {
 	background: #E6E3DA;
@@ -552,7 +552,6 @@ div.collage_item_1 .collage-image {
 	border-top-right-radius: 15px;
 }
 
-/* @end */
 
 div.collage_type_topic.collage_view_summary h2 {
 	display: none;
@@ -573,6 +572,8 @@ div.collage_type_topic.collage_view_summary div.tileItem {
     float: left;
     margin: 0 1em 0.5em 0;
 }
+/* @end */
+
 
 /* @end */
 
