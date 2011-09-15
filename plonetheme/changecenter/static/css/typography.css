@@ -1,7 +1,22 @@
 /* @override 
 	http://localhost:8080/Plone/++theme++plonetheme.changecenter/css/typography.css */
+	
+/* @group General Styles */
 
 h2 {
 	background: transparent url('../images/h2-arrow.png') no-repeat left center;
 	text-indent: 30px;
+	color: #355DA6;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
 }
+
+/* @end */
+
+/* @group Footer */
+
+#portal-siteactions li a:hover {
+    color: #355DA6
+}
+/* @end */
