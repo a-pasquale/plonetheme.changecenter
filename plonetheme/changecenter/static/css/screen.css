@@ -343,15 +343,56 @@ div.carousel {
  .carousel-banner div.carousel-text {
 	height: 100%;
     background-color: #375FA4;
-    padding: 0;
-    width: 50%;
+	width: 50%;
 	float: right;
 	position: relative;
 	float: right;
 	-webkit-border-top-right-radius: 15px;
 	-moz-border-radius-topright: 15px;
 	border-top-right-radius: 15px;
+	padding: 0;
 }
+
+
+div.carousel-text:after {
+	content:"";
+	position:absolute;
+	bottom:auto; /* value = - border-top-width - border-bottom-width */
+	border-style:solid;
+    /* reduce the damage in FF3.0 */
+    display:block; 
+    width:0;
+    
+    top: 0%; /* controls vertical position */
+    left:-40px; /* value = - border-left-width - border-right-width */
+    border-width:160px 40px 160px 0; /* vary these values to change the angle of the vertex */
+    border-color:transparent #315496;
+}
+
+div.carousel-text .carousel-title {
+	color: white;
+	position: relative;
+	margin: 50px 50px 0;
+	display: block;
+	font: 2em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	padding-bottom: 5px;
+}
+
+
+div.carousel-body {
+	border-top: 2px solid #5E7DB6;
+	padding: 0;
+	margin-right: 50px;
+	margin-left: 50px;
+	position: relative;
+}
+
+div.carousel-body p {
+	color: #CDCDC3;
+	font-size: 1.2em;
+	padding-top: 10px;
+}
+
 .carousel-banner-1 {
 	display: block;
 }
@@ -361,14 +402,28 @@ div.carousel {
     top:  280px;
     left: 75%;
 }
+
+.carousel-pager a {
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	margin: 2px;
+	color: white;
+}
+
+.carousel-pager a {
+	
+}
 .carousel-pager-item,
 .carousel-pager-button-prev,
 .carousel-pager-button-next {
-    background-color: #DDDDDD;
-    padding: 0.25em 0.5em;
+    background-color: white;
+    padding: 1;
+	font-size: 6px;
 }
-.carousel-pager-item-active {
-    background-color: #75AD0A;
+.carousel-pager a.carousel-pager-item-active {
+    background-color: #EF662D;
+    color: #EF662D;
 }
 .carousel-pager-item-active:link,
 .carousel-pager-item-active:visited,
