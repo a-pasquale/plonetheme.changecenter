@@ -326,9 +326,10 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 
 #portlets-above dt.portletHeader {
 	position: absolute;
-	top: 16px;
+	top: 20px;
 	background: none;
-	left: 36%;
+	left: 40%;
+	padding: 0;
 }
 
 #portlets-above .managePortletsAboveLink {
