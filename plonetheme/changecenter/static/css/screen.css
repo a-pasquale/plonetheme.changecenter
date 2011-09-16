@@ -1,5 +1,6 @@
 /* @override 
-	http://beta.changecenter.org/++theme++plonetheme.changecenter/css/screen.css */
+	http://beta.changecenter.org/++theme++plonetheme.changecenter/css/screen.css
+	http://64.18.217.181:8908/Plone/++theme++plonetheme.changecenter/css/screen.css */
 
 
 body {
@@ -564,8 +565,13 @@ div.collage_type_topic.collage_view_summary div.tileItem {
 	border-top: 1px dotted silver;
 	position: relative;
 	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
+/*div.collage_type_topic.collage_view_summary div.tileItem h3, div.collage_type_topic.collage_view_summary div.tileItem p {
+	position: relative;
+	margin-left: 150px;
+}*/
 #content img.tileImage,
 #content div.newsImageContainer {
     float: left;

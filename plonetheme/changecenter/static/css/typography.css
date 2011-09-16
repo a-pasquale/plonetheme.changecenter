@@ -1,5 +1,6 @@
 /* @override 
-	http://beta.changecenter.org/++theme++plonetheme.changecenter/css/typography.css */
+	http://beta.changecenter.org/++theme++plonetheme.changecenter/css/typography.css
+	http://64.18.217.181:8908/Plone/++theme++plonetheme.changecenter/css/typography.css */
 
 	
 /* @group General Styles */
@@ -136,6 +137,20 @@ div.carousel-text .carousel-title {
 	color: white;
 	font: 2em/1.5em "myriad-pro",sans-serif;
 	font-weight: 300;
+}
+
+/* @end */
+
+/* @group Specific View Tweaks */
+
+body.section-what-we-do div.tileItem h3 {
+	background: transparent url('../images/arrow-gray.png') no-repeat left center;
+	text-indent: 30px;
+	color: #355DA6;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	font-family: myriad-pro, sans-serif;
 }
 
 /* @end */
