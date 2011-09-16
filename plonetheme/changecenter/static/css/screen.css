@@ -540,7 +540,6 @@ div.carousel-body p {
 /* @group Collage */
 
 #collage {
-	padding-right: 10px;
 }
 div.collage-row {
 	position: relative;
@@ -578,6 +577,40 @@ div.collage_type_topic.collage_view_summary div.tileItem {
     float: left;
     margin: 0 1em 0.5em 0;
 }
+
+/* @group Three Column Large Rigth */
+
+#collage .three-columns-largeright div.collage_view_summary img.tileImage {
+float: right;
+margin-right: 0;
+}
+
+#collage .three-columns-largeright .block_3 {
+width:38%;
+border-left: 4px solid silver;
+margin-top: -12px;
+padding-top: 1em;
+}
+#collage .three-columns-largeright .block_1 {
+width: 29%;
+}
+#collage .three-columns-largeright .block_2 {
+width:29%;
+}
+#collage  .three-columns-largeright div.standard-document {
+	padding-right: 10px;
+}
+
+#collage  .three-columns-largeright div.collage_type_topic.collage_view_summary div.tileItem {
+	border-top: none;
+	border-bottom: 1px dotted silver;
+	position: relative;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+
+/* @end */
+
 /* @end */
 
 
@@ -613,4 +646,24 @@ body.portaltype-person div#content div.newsImageContainer{
 	z-index: 100;
 	display: inline;
 }
+/* @end */
+
+/* @group News Items */
+
+.portaltype-news-item #content .newsImageContainer {
+float: right;
+margin: 0 0 0.5em 1em;
+width: 16em;
+position: relative;
+}
+
+.portaltype-news-item #content div.documentDescription {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-left: 30px;
+}
+.portaltype-news-item #content p {
+	margin-left: 30px;
+}
+
 /* @end */

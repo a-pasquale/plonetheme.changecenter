@@ -45,6 +45,11 @@ dl.portlet a:hover {
     color: #355DA6 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
 }
 
+#content ul {
+list-style-type: disc;
+margin-left: 4em;
+}
+
 hr {
 	color: #fff; 
 	background-color: #fff; 
@@ -141,6 +146,20 @@ div.carousel-text .carousel-title {
 
 /* @end */
 
+/* @group News Item */
+
+.portaltype-news-item #content h1 {
+	background: transparent url('../images/h2-arrow.png') no-repeat left center;
+	text-indent: 30px;
+	color: #355DA6;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 2em;
+	font-family: myriad-pro, sans-serif;
+}
+
+/* @end */
+
 /* @group Specific View Tweaks */
 
 body.section-what-we-do div.tileItem h3 {
@@ -151,6 +170,15 @@ body.section-what-we-do div.tileItem h3 {
 	font-style: normal;
 	font-size: 2em;
 	font-family: myriad-pro, sans-serif;
+}
+
+#collage div.three-columns-largeright div.collage_view_summary h3.tileHeadline a {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+#collage div.three-columns-largeright div.collage_view_summary p .description {
+	color: gray;
 }
 
 /* @end */
