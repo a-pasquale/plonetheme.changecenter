@@ -251,7 +251,13 @@ input.searchField {
 
 #portal-column-content {
 	position: relative;
-	
+}
+
+#content {
+line-height: 1.5em;
+font-size: 80%;
+margin: 1em 0.25em 2em 0.25em;
+clear: both;
 }
 
 /* @group Portlets */
@@ -336,11 +342,6 @@ dl.portlet ul.navTree .navTreeCurrentItem {
   clear:both;
 }
 
-#portlets-below {
-  margin-top:80px;
-  clear:both;
-  width:100%;
-}
 
 #portlets-below .portletWrapper {
   float:left;
