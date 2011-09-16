@@ -5,17 +5,20 @@
 	
 /* @group General Styles */
 
-h1 {	
+h1 {
+background: transparent url('../images/h2-arrow.png') no-repeat left center;
+text-indent: 30px;
+color: #355DA6;
+font: normal normal 2em myriad-pro, sans-serif;
+	
 }
 
 h2 {
 	background: transparent url('../images/h2-arrow.png') no-repeat left center;
 	text-indent: 30px;
 	color: #355DA6;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 2em;
-	font-family: myriad-pro, sans-serif;
+	font: normal normal 2em myriad-pro, sans-serif;
+	display: block;
 }
 
 h3 {
