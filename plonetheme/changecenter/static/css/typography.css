@@ -181,4 +181,9 @@ body.section-what-we-do div.tileItem h3 {
 	color: gray;
 }
 
+body.section-news #collage  div.collage_type_topic.collage_view_summary h3.tileHeadline {
+	background: transparent url('../images/h2-arrow.png') no-repeat left center;
+	text-indent: 30px;	
+}
+
 /* @end */

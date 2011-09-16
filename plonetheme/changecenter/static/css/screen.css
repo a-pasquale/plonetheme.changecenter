@@ -651,6 +651,14 @@ body.portaltype-person div#content div.newsImageContainer{
 
 /* @group News Items */
 
+body.section-news #collage  div.collage_type_topic.collage_view_summary img.tileImage {
+	float: right;	
+	border-bottom: 1px dotted silver;
+	position: relative;
+	margin-right: 0;
+	padding: .5em 0 .5em 1em;
+}
+
 .portaltype-news-item #content .newsImageContainer {
 float: right;
 margin: 0 0 0.5em 1em;
