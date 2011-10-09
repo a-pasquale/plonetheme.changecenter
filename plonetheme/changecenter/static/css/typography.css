@@ -10,6 +10,7 @@ background: transparent url('../images/h2-arrow.png') no-repeat left center;
 text-indent: 30px;
 color: #355DA6;
 font: normal normal 2em myriad-pro, sans-serif;
+		margin: 5px 0 20px 0;
 	
 }
 
@@ -17,18 +18,29 @@ h2 {
 	background: transparent url('../images/h2-arrow.png') no-repeat left center;
 	text-indent: 30px;
 	color: #355DA6;
-	font: normal normal 2em myriad-pro, sans-serif;
+	font: normal normal 24px myriad-pro, sans-serif;
 	display: block;
+	letter-spacing: 0;
+	margin: 5px 0 20px 0;
+	position: relative;
+	right: 2px;
+}
+
+.section-about-us h2, .section-projects h2 {
+	background: transparent url('../images/arrow-gray.png') no-repeat left center;
+	margin: 5px 0 10px 0;
+	
 }
 
 h3 {
-	font: normal 2em/1.5em "myriad-pro",sans-serif;
+	font: normal 20px/1.5em "myriad-pro",sans-serif;
 	color: #355DA6;
 }
 
 h4 {
-	color: #333;
-	font: normal 1.25em/1.5em "myriad-pro",sans-serif;
+	color: #666;
+	font: normal 19px/25px "myriad-pro",sans-serif;
+	padding-top: 10px;
 }
 
 #content p a:link,
@@ -50,34 +62,50 @@ dl.portlet a:hover {
 
 #content ul {
 list-style-type: disc;
-margin-left: 4em;
+margin: 0 0 20px 25px;
 }
 
+div#content ul li {
+	margin-bottom: 5px;
+}
 hr {
 	color: #fff; 
 	background-color: #fff; 
 	border: 1px dotted gray; 
 	border-style: none none dotted; 
 }
+
+#content p,
+#content table,
+#content dl,
+dl.portlet p,
+dl.portlet , #content ul li {
+margin-bottom: 1em;
+color: #999999;
+font: normal 13px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+letter-spacing: normal;
+}
+
+
 /* @end */
 
 /* @group Header and Nav */
 
 #slogan h1 {
-	color: gray;
-	font: 1.75em "myriad-pro",sans-serif;
+	color: #999999;
+	font: 1.6em "myriad-pro",sans-serif;
 }
 
 #slogan h2 {
 	color: #153462;
-	font: 1.35em "myriad-pro",sans-serif;
+	font: 1.25em "myriad-pro",sans-serif;
 	background: none;
 	text-indent: 0;
 }
 
 #nav ul li a {
 	font: 14px "myriad-pro",sans-serif;
-	color: gray;
+	color: #999999;
 }
 
 #nav ul li a:hover{
@@ -90,7 +118,8 @@ hr {
 /* @group Portlets */
 
 dl.portlet ul.navTree li a {
-	color: gray;
+	color: #999;
+	font: normal 14px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 dl.portlet ul.navTree li a:hover {
@@ -104,9 +133,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 
 #portlets-above dt.portletHeader {
 	color: white;
-	font: 2.5em "myriad-pro",sans-serif;
-	font-weight: 300;
-	
+	font: 34px "myriad-pro",sans-serif;
 }
 /* @end */
 
@@ -144,8 +171,14 @@ body.portaltype-person #content .documentDescription {
 
 div.carousel-text .carousel-title {
 	color: white;
-	font: 2em/1.5em "myriad-pro",sans-serif;
+	font: 2em "myriad-pro",sans-serif;
 	font-weight: 300;
+}
+
+div.carousel-body p {
+	color: #CDCDC3;
+	font-size: 20px;
+	letter-spacing: 1px;
 }
 
 /* @end */
@@ -191,3 +224,7 @@ body.section-news #collage  div.collage_type_topic.collage_view_summary h3.tileH
 }
 
 /* @end */
+
+#collage h3 {
+	margin: 10px 0 10px 0;
+}

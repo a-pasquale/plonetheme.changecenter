@@ -237,7 +237,7 @@ input.searchField {
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
-	
+	padding: 0;
 }
 
 #main {
@@ -253,11 +253,11 @@ input.searchField {
 	position: relative;
 }
 
-#content {
+div#content {
 line-height: 1.5em;
 font-size: 80%;
-margin: 1em 0.25em 2em 0.25em;
 clear: both;
+margin: 0 15px 0 0px;
 }
 
 /* @group Portlets */
@@ -287,9 +287,8 @@ dl.portletNavigationTree dd.portletItem {
 }
 
 dl.portlet ul.navTreeLevel0 > .navTreeItem {
-    padding: 0.25em 0;
-    border-bottom: 0.1em dotted #ddd;
-    line-height: 2em;
+    padding: 10px 0;
+    border-bottom: 1px dotted #ddd;
 }
 
 dl.portlet ul.navTreeLevel1 .navTreeItem {
@@ -470,7 +469,7 @@ div.carousel-text:after {
 div.carousel-text .carousel-title {
 	color: white;
 	position: relative;
-	margin: 50px 50px 0;
+	margin: 30px 50px 0;
 	display: block;
 	font: 2em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	padding-bottom: 5px;
@@ -487,7 +486,7 @@ div.carousel-body {
 
 div.carousel-body p {
 	color: #CDCDC3;
-	font-size: 1.2em;
+	font-size: 20px;
 	padding-top: 10px;
 	min-height: 50px;
 }
@@ -575,31 +574,41 @@ div.collage_type_topic.collage_view_summary div.tileItem {
 }*/
 #content img.tileImage,
 #content div.newsImageContainer {
-    float: left;
-    margin: 0 1em 0.5em 0;
+    float: right;
+    margin: 0 0 0 10px;
 }
 
 /* @group Three Column Large Rigth */
-
-#collage .three-columns-largeright div.collage_view_summary img.tileImage {
-float: right;
-margin-right: 0;
+div#content > #collage .three-columns-largeright {
+margin: 0px -30px 0 -10px;
 }
 
+#collage .three-columns-largeright img.image-right {
+float: right;
+border: 3px solid #eaeaea;
+margin: 0 10px 10px 10px;
+}
+#collage .three-columns-largeright .column-block {
+	margin-top: 15px;
+}
 #collage .three-columns-largeright .block_3 {
 width:38%;
-border-left: 4px solid silver;
-margin-top: -12px;
-padding-top: 1em;
+border-left: 4px solid #E6E3DA;
+margin-top: 0px;
+padding-top: 10px;
+padding-left: 20px;
 }
 #collage .three-columns-largeright .block_1 {
 width: 29%;
 }
 #collage .three-columns-largeright .block_2 {
 width:29%;
+border-left: 1px dotted #999999;
+padding: 0 0 0 0;
 }
 #collage  .three-columns-largeright div.standard-document {
-	padding-right: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 #collage  .three-columns-largeright div.collage_type_topic.collage_view_summary div.tileItem {
@@ -673,6 +682,17 @@ position: relative;
 }
 .portaltype-news-item #content p {
 	margin-left: 30px;
+}
+
+/* @end */
+
+/* @group Images */
+
+.image-right {
+float: right;
+margin: 0;
+	border: 4px solid #999999 !;
+
 }
 
 /* @end */
