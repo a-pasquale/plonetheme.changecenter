@@ -651,7 +651,7 @@ body.portaltype-person div#content div.newsImageContainer{
 
 /* @group News Items */
 
-body.section-news #collage  div.collage_type_topic.collage_view_summary img.tileImage {
+#collage div.collage_view_small_summary img.tileImage {
 	float: right;	
 	border-bottom: 1px dotted silver;
 	position: relative;
