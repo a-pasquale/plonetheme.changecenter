@@ -620,6 +620,51 @@ padding: 0 0 0 0;
 	padding-bottom: .5em;
 }
 
+
+
+/* @end */
+
+/* @group About Us Collage */
+
+.section-about-us #collage div.collage_type_topic.collage_view_summary img.tileImage, .section-about-us #collage img.image-left {
+	border: 2px solid #eaeaea;
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+.section-about-us #collage div.collage_type_topic.collage_view_summary h3 {
+	margin: 20px 0 0 0;	
+}
+
+.section-about-us #collage div.collage_type_topic.collage_view_summary h3 a {
+		color: #355DA6;	
+}
+
+
+.section-about-us #collage div.collage_type_topic.collage_view_summary p.tileBody {
+	color: #333;
+	width: 500px;
+}
+
+
+.section-about-us div#content h1.documentFirstHeader {
+	margin: 0 0 0 0;
+	background-image: none;
+	font: normal 24px "myriad-pro",sans-serif;
+	letter-spacing: 0;
+}
+
+.section-about-us div#content div.documentDescription {
+	margin: 0 0 0 0;
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #999;
+	font: normal 14px "myriad-pro",sans-serif;
+}
+
+.section-about-us div#content div#content-core {
+	margin: 0 0 0 0px;
+	padding-top: 10px;
+}
 /* @end */
 
 /* @end */
@@ -696,4 +741,14 @@ margin: 0;
 
 }
 
+.section-about-us div#content div.newsImageContainer {
+	float: left;
+	margin: 0 0px 20px 0;
+	padding: 0 20px 0 0 ;
+	background-color: white;
+}
+
+.section-about-us div#content div.newsImageContainer img {
+		border: 2px solid #eaeaea;
+}
 /* @end */
