@@ -385,15 +385,17 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     padding-top: 20px;
 }
 
-#foot-menu li {
+#foot-menu li, #foot-menu dt {
     border-right: 1px solid gray;
     padding-left: 20px;
     padding-right: 20px;
+    float: left;
+    font-weight: normal;
 }
 #foot-menu li:last-child {
     border-right: 0;
 }
-#foot-menu ul li a {
+#foot-menu ul li a, #foot-menu dt a {
     color: gray;
 }
 
