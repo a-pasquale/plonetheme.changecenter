@@ -593,14 +593,18 @@ margin: 0 10px 10px 10px;
 #collage .three-columns-largeright .column-block {
 	margin-top: 15px;
 }
+
 #collage .three-columns-largeright .block_3 {
 width:34%;
 border-left: 4px solid #E6E3DA;
 margin-top: 0px;
 padding-top: 10px;
 padding-left: 20px;
-height: 400px;
+height: 425px;
 }
+
+/*WTF*/
+
 #collage .three-columns-largeright .block_1 {
 width: 31%;
 }
