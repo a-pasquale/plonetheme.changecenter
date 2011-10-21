@@ -432,6 +432,10 @@ div.carousel {
 	width: 50%;
 	float: left;
 }
+
+.carousel-image:after {
+	background: transparent url(../images/homepage_arrow.png) center center;
+}
 .carousel-image img{
 	overflow: hidden;
 	-webkit-border-top-left-radius: 15px;
@@ -453,20 +457,6 @@ div.carousel {
 }
 
 
-div.carousel-text:after {
-	content:"";
-	position:absolute;
-	bottom:auto; /* value = - border-top-width - border-bottom-width */
-	border-style:solid;
-    /* reduce the damage in FF3.0 */
-    display:block; 
-    width:0;
-    
-    top: 0%; /* controls vertical position */
-    left:-40px; /* value = - border-left-width - border-right-width */
-    border-width:160px 40px 160px 0; /* vary these values to change the angle of the vertex */
-    border-color:transparent #315496;
-}
 
 div.carousel-text .carousel-title {
 	color: white;
