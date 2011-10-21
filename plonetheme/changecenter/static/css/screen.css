@@ -426,6 +426,14 @@ div.carousel {
 
 .carousel-banner {
     overflow: hidden;
+    background-color: #375FA4;
+    -webkit-border-top-right-radius: 15px;
+    -moz-border-radius-topright: 15px;
+    border-top-right-radius: 15px;
+    -webkit-border-top-left-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    border-top-left-radius: 15px;
+        
 }
 
 .carousel-image {
@@ -433,35 +441,37 @@ div.carousel {
 	float: left;
 }
 
-.carousel-image:after {
-	background: transparent url(../images/homepage_arrow.png) center center;
-}
+
 .carousel-image img{
 	overflow: hidden;
 	-webkit-border-top-left-radius: 15px;
 	-moz-border-radius-topleft: 15px;
-	border-top-left-radius: 15px;
-	
+	border-top-left-radius: 15px;	
 }
+
+
+
  .carousel-banner div.carousel-text {
 	height: 100%;
-    background-color: #375FA4;
+/*    background-color: #375FA4;*/
 	width: 50%;
-	float: right;
 	position: relative;
-	float: right;
 	-webkit-border-top-right-radius: 15px;
 	-moz-border-radius-topright: 15px;
 	border-top-right-radius: 15px;
+	background: url(../images/homepage_arrow.png) no-repeat left center;
+	float: right;
+	margin-top: 0;
+	margin-bottom: 0;
+	left: -31px;
 	padding: 0;
 }
-
 
 
 div.carousel-text .carousel-title {
 	color: white;
 	position: relative;
-	margin: 30px 50px 0;
+	margin: 30px 0 0 70px;
 	display: block;
 	font: 2em/1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 	padding-bottom: 5px;
@@ -471,8 +481,8 @@ div.carousel-text .carousel-title {
 div.carousel-body {
 	border-top: 2px solid #5E7DB6;
 	padding: 0;
-	margin-right: 50px;
-	margin-left: 50px;
+	margin-right: 0px;
+	margin-left: 70px;
 	position: relative;
 }
 
