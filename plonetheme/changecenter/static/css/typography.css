@@ -21,6 +21,12 @@ font: normal normal 2em myriad-pro, sans-serif;
 		margin: 5px 0 20px 0;
 	
 }
+
+/*Hide Project Collection Titles*/
+.section-projects h1 {
+	display: none;
+}
+
 h2 {
 	text-indent: 30px;
 	color: #355DA6;
