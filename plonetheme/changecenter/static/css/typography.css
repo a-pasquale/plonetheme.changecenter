@@ -5,7 +5,7 @@
 	
 /* @group General Styles */
 
-.section-center-for-institutional-and-social-change h1 {
+.section-center-for-institutional-and-social-change #content h1 {
 background: transparent url('../images/h2-arrow.png') no-repeat left center;
 text-indent: 30px;
 color: #355DA6;
