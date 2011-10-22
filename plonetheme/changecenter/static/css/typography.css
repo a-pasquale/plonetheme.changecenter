@@ -15,7 +15,6 @@ font: normal normal 2em myriad-pro, sans-serif;
 }
 
 h2 {
-	background: transparent url('../images/h2-arrow.png') no-repeat left center;
 	text-indent: 30px;
 	color: #355DA6;
 	font: normal normal 24px myriad-pro, sans-serif;
@@ -26,7 +25,14 @@ h2 {
 	right: 2px;
 }
 
-.section-about-us h2, .section-projects h2 {
+.section-center-for-institutional-and-social-change h2 {
+	background: transparent url('../images/h2-arrow.png') no-repeat left center;
+}
+
+h2 {
+}
+
+h2 {
 	background: transparent url('../images/arrow-gray.png') no-repeat left center;
 	margin: 5px 0 10px 0;
 	
@@ -39,8 +45,10 @@ h3 {
 
 h4 {
 	color: #666;
-	font: normal 19px/25px "myriad-pro",sans-serif;
+	font: normal 19px/22px "myriad-pro",sans-serif;
 	padding-top: 10px;
+	padding-bottom: 10px;
+	
 }
 
 #content p a:link,
