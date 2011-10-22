@@ -23,7 +23,7 @@ font: normal normal 2em myriad-pro, sans-serif;
 }
 
 /*Hide Project Collection Titles*/
-.section-projects h1 {
+.section-projects #content h1 {
 	display: none;
 }
 
