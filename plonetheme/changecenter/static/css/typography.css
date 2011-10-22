@@ -208,7 +208,6 @@ div.carousel-body p {
 /* @group News Item */
 
 .portaltype-news-item #content h1 {
-	background: transparent url('../images/h2-arrow.png') no-repeat left center;
 	text-indent: 30px;
 	color: #355DA6;
 	font-weight: normal;
@@ -241,7 +240,7 @@ body.section-what-we-do div.tileItem h3 {
 }
 
 body.section-news #collage  div.collage_type_topic.collage_view_summary h3.tileHeadline {
-	background: transparent url('../images/h2-arrow.png') no-repeat left center;
+	background: transparent url('../images/arrow-gray.png') no-repeat left 3px;
 	text-indent: 30px;	
 }
 
