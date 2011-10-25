@@ -249,3 +249,18 @@ body.section-news #collage  div.collage_type_topic.collage_view_summary h3.tileH
 #collage h3 {
 	margin: 10px 0 10px 0;
 }
+
+.template-folder_full_view #content h1 {
+	display: none;
+}
+.template-folder_full_view #content h2 {
+	background: none;
+	text-indent: 0px;
+	font-size: 14px;
+	margin-bottom: 0;
+	line-height: 18px;
+}
+
+.template-folder_full_view #content div.description, .template-folder_full_view #content div.description {
+		color: #999999;
+	}
