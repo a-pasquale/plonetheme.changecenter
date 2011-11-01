@@ -68,6 +68,9 @@ dl.portlet a:link, #content p.readmore a:link {
     border-bottom: none;
 }
 
+#content a:link, dl.portlet a:link {
+    color: #355DA6;
+}
 #content p a:visited,
 dl.portlet a:visited {
     color: #355DA6;
