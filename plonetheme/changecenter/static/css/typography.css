@@ -67,8 +67,7 @@ border-bottom: none !important;
 }
 
 
-#content p.tileFooter  a:link,
-dl.portlet a:link, #content p.readmore a:link {
+#content p.tileFooter  a:link, #content p.readmore a {
     color: #F26722 !important;
     border-bottom: none;
 }
