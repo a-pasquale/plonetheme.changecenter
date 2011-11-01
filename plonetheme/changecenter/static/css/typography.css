@@ -209,10 +209,8 @@ div.carousel-body p {
 	padding-left: 30px;
 	text-indent: 0;
 	color: #355DA6;
-	font-weight: normal;
-	font-style: normal;
-	font-size: 2em;
-	font-family: myriad-pro, sans-serif;
+	font: normal normal 2em myriad-pro, sans-serif;
+	margin-bottom: 0;
 }
 
 /* @end */
