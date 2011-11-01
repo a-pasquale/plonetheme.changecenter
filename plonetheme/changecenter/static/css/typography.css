@@ -66,13 +66,10 @@ h2 a, h3 a, h4 a {
 border-bottom: none !important;
 }
 
-a:link, a:visited {
-color: #355DA6;
-}
 
 #content p.tileFooter  a:link,
 dl.portlet a:link, #content p.readmore a:link {
-    color: #F26722;
+    color: #F26722 !important;
     border-bottom: none;
 }
 
