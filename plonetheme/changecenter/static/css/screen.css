@@ -1,6 +1,6 @@
-/* @override 
-	http://beta.changecenter.org/++theme++plonetheme.changecenter/css/screen.css
-	http://64.18.217.181:8908/Plone/++theme++plonetheme.changecenter/css/screen.css */
+/* @override
+	http://64.18.217.181:8908/Plone/++theme++plonetheme.changecenter/css/screen.css
+	http://beta.changecenter.org/++theme++plonetheme.changecenter/css/screen.css */
 
 body {
 	background: #E6E3DA;
@@ -91,6 +91,7 @@ body {
 	padding-left: 10px;
 	padding-top: 12px;
 }
+
 
 /* @group Quick Search */
 
@@ -291,7 +292,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 dl.portlet ul.navTreeLevel1 .navTreeItem {
-    padding-left: 0.5em;
+    padding-left: 1em;
     line-height: 2em;
 }
 
@@ -300,6 +301,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     border-left: none;
     margin-left: 0;
     margin-right: 0;
+	margin-top: 10px;
 }
 
 /* @end */
@@ -757,3 +759,4 @@ margin: 0;
 		border: 2px solid #eaeaea;
 }
 /* @end */
+

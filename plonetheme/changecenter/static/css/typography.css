@@ -65,7 +65,7 @@ h4 {
 }
 
 #content p.tileFooter  a:link,
-dl.portlet a:link {
+dl.portlet a:link, #content p.readmore a:link {
     color: #F26722;
     border-bottom: none;
 }
