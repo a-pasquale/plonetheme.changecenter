@@ -56,7 +56,7 @@ h3 {
 
 h4 {
 	color: #666;
-	font: normal 19px/22px "myriad-pro",sans-serif;
+	font: normal 16px/22px "myriad-pro",sans-serif;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	
@@ -232,7 +232,7 @@ body.section-what-we-do div.tileItem h3 {
 	color: #355DA6;
 	font-weight: normal;
 	font-style: normal;
-	font-size: 2em;
+	font-size: 18pt;
 	font-family: myriad-pro, sans-serif;
 }
 
