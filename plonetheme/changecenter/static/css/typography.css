@@ -72,7 +72,7 @@ border-bottom: none !important;
     border-bottom: none;
 }
 
-#content a:link, dl.portlet a:link {
+#content a:link{
     color: #355DA6 !important;
 }
 
