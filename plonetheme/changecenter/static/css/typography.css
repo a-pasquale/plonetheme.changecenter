@@ -114,7 +114,9 @@ font: normal 13px/18px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 letter-spacing: normal;
 }
 
-
+.collage_view_small_summary p.tileBody {
+	margin-bottom: 0 !important;
+}
 
 /* @end */
 

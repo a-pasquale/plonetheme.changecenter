@@ -388,7 +388,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 #foot-menu {
     float: right;
     margin-right: 25px;
-    padding-top: 20px;
+    padding-top: 27px;
 }
 
 #foot-menu li, #foot-menu dt {
@@ -403,7 +403,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 }
 #foot-menu ul li a, #foot-menu dt a {
     color: gray;
-	font-size: 14px;
+	font-size: 13px;
 }
 
 #copyright {
