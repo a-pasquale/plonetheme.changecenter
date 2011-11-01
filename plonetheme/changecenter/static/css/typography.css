@@ -249,8 +249,8 @@ body.section-what-we-do div.tileItem h3 {
 }
 
 body.section-news #collage  div.collage_type_topic.collage_view_summary h3.tileHeadline {
-	background: transparent url('../images/arrow-gray.png') no-repeat left 3px;
-	text-indent: 30px;	
+	background: transparent url('../images/arrow-gray.png') no-repeat left 0px;
+	padding-left: 30px;	
 }
 
 /* @end */
