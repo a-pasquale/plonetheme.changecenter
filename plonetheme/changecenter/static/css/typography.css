@@ -69,8 +69,9 @@ dl.portlet a:link, #content p.readmore a:link {
 }
 
 #content a:link, dl.portlet a:link {
-    color: #355DA6;
+    color: #355DA6 !important;
 }
+
 #content p a:visited,
 dl.portlet a:visited {
     color: #355DA6;
