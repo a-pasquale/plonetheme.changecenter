@@ -757,3 +757,8 @@ margin: 0;
 		border: 2px solid #eaeaea;
 }
 /* @end */
+
+#document-action-print + #document-action-print {
+  display: none;
+}
+

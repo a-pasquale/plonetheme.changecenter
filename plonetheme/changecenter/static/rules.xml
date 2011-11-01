@@ -40,8 +40,9 @@
   <append css:content-children=".documentActions ul"
           css:theme="#foot-menu ul" />
   <drop css:content=".documentActions"/>
+  <!-- Don't put the login link in the footer
   <prepend css:content="#anon-personalbar" css:theme="#foot-menu ul"/>
-
+  -->
   <drop css:theme=".col-two"/>
   <drop css:theme=".col-three"/>
 
