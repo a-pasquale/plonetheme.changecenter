@@ -82,6 +82,11 @@ dl.portlet a:visited {
     border-bottom: none;
 }
 
+a:link, a:visited {
+    color: #355DA6 !important;
+    border-bottom: none;
+}
+
 #content a:hover,
 dl.portlet a:hover {
     color: #355DA6 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
