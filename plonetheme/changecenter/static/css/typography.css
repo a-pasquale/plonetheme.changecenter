@@ -78,7 +78,7 @@ border-bottom: none !important;
 
 #content p a:visited,
 dl.portlet a:visited {
-    color: #355DA6;
+    color: #355DA6 !important;
     border-bottom: none;
 }
 
