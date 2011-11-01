@@ -292,6 +292,12 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {
 }
 
 dl.portlet ul.navTreeLevel1 .navTreeItem {
+	padding-top: 10px;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+dl.portlet ul.navTreeLevel1 .navTreeItem {
     padding-left: 1em;
     line-height: 2em;
 }
@@ -301,7 +307,6 @@ dl.portlet ul.navTree .navTreeCurrentItem {
     border-left: none;
     margin-left: 0;
     margin-right: 0;
-	margin-top: 10px;
 }
 
 /* @end */
