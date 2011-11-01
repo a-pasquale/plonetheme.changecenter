@@ -33,7 +33,7 @@ h2 {
 	font: normal normal 24px myriad-pro, sans-serif;
 	display: block;
 	letter-spacing: 0;
-	margin: 5px 0 20px 0;
+	margin: 5px 0 10px 0;
 	position: relative;
 	right: 2px;
 }
@@ -64,8 +64,8 @@ h4 {
 	
 }
 
-#content p a:link,
-dl.portlet a:link {
+#content p.tileFooter  a:link,
+dl.portlet a:link, #content p.readmore a:link {
     color: #F26722;
     border-bottom: none;
 }
