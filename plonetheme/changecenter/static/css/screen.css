@@ -403,6 +403,7 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 }
 #foot-menu ul li a, #foot-menu dt a {
     color: gray;
+	font-size: 14px;
 }
 
 #copyright {
