@@ -14,7 +14,7 @@ font: normal normal 2em myriad-pro, sans-serif;
 	
 }
 #content h1 {
-background: transparent url('../images/arrow-gray.png') no-repeat left center;
+background: transparent url('../images/arrow-gray.png') no-repeat left 3px;
 text-indent: 30px;
 color: #355DA6;
 font: normal normal 2em myriad-pro, sans-serif;
@@ -206,7 +206,8 @@ div.carousel-body p {
 /* @group News Item */
 
 .portaltype-news-item #content h1 {
-	text-indent: 30px;
+	padding-left: 30px;
+	text-indent: 0;
 	color: #355DA6;
 	font-weight: normal;
 	font-style: normal;
