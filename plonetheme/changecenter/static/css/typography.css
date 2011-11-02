@@ -288,3 +288,9 @@ body.section-news #collage  div.collage_type_topic.collage_view_summary h3.tileH
 #content p.tileBody {
 	margin-bottom: 0;
 }
+
+#content .standard-topic span.description b, #content .standard-topic span.description {
+	font-weight: normal;
+	font-style: normal;
+	color: #333;
+}
