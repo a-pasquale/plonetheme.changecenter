@@ -78,6 +78,7 @@ border-bottom: none !important;
 
 #content a:link{
     color: #355DA6 !important;
+    border-bottom: none;
 }
 
 #content p a:visited {
@@ -88,7 +89,7 @@ border-bottom: none !important;
 
 #content a:hover,
 dl.portlet a:hover {
-    color: #355DA6 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
+    color: #F26722 !important; /* This one gets an !important because it should always activate in the content area, even when state coloring is active */
 }
 
 #content ul {
