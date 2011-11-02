@@ -22,7 +22,7 @@ background: transparent url('../images/arrow-gray.png') no-repeat left 3px;
 text-indent: 30px;
 color: #355DA6;
 font: normal normal 2em myriad-pro, sans-serif;
-		margin: 5px 0 20px 0;
+		margin: 5px 0 10px 0;
 	
 }
 
@@ -229,11 +229,12 @@ div.carousel-body p {
 /* @group News Item */
 
 .portaltype-news-item #content h1 {
-	padding-left: 30px;
+	padding-left: 0px;
 	text-indent: 0;
 	color: #355DA6;
 	font: normal normal 2em myriad-pro, sans-serif;
 	margin-bottom: 0;
+	background: none;
 }
 
 /* @end */
@@ -287,6 +288,11 @@ body.section-news #collage  div.collage_type_topic.collage_view_summary h3.tileH
 	
 #content p.tileBody {
 	margin-bottom: 0;
+}
+
+.section-news #content p.tileBody {
+	margin-bottom: 0;
+	width: 560px;
 }
 
 #content .standard-topic span.description b, #content .standard-topic span.description {

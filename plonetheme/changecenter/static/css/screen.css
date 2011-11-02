@@ -345,14 +345,11 @@ dl.portlet ul.navTree .navTreeCurrentItem {
 	background: #355DA6;
 	border-bottom: 3px solid #143C6D;
 	right: -28px;
-	min-height: 50px;
-	padding: 10px 15px 15px;
-	vertical-align: middle;
+	min-height: 54px;
+	padding: 10px 15px;
 }
 
 #portlets-above dt.portletHeader span {
-	position: relative;
-	top: 50%;
 }
 
 #portlets-above .managePortletsAboveLink {
@@ -746,12 +743,16 @@ position: relative;
 }
 
 .portaltype-news-item #content div.documentDescription {
-	padding-top: 1em;
-	padding-bottom: 1em;
-	margin-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 0px;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	color: #333;
 }
 .portaltype-news-item #content p {
-	margin-left: 30px;
+	margin-left: 0px;
 }
 
 /* @end */
