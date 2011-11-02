@@ -157,7 +157,7 @@ dl.portlet ul.navTree li a:hover {
     color: #F26722 !important;
 }
 
-dl.portlet ul.navTree li a:visited {
+#content dl.portlet ul.navTree li a:visited {
     color: #999;
 }
 
