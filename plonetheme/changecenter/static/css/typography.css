@@ -71,7 +71,7 @@ border-bottom: none !important;
 }
 
 
-#content p.tileFooter  a:link, #content p.readmore a, #content p.readmore a:visited, #content p.readmore a:link {
+#content p.tileFooter  a:link, #content span.readmore a, #content span.readmore a:visited, #content span.readmore a:link {
     color: #F26722 !important;
     border-bottom: none;
 }
