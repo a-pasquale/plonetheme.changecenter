@@ -23,6 +23,7 @@ text-indent: 30px;
 color: #355DA6;
 font: normal normal 24px myriad-pro, sans-serif;
 		margin: 5px 0 10px 0;
+		letter-spacing: normal;
 	}
 
 /*Hide Project Collection Titles*/
@@ -31,8 +32,8 @@ font: normal normal 24px myriad-pro, sans-serif;
 }
 
 h2 {
-	background: transparent url('../images/arrow-gray.png') no-repeat left center;
-	text-indent: 30px;
+	background: transparent url('../images/arrow-gray.png') no-repeat left 2px;
+	text-indent: 0;
 	color: #355DA6;
 	font: normal normal 24px myriad-pro, sans-serif;
 	display: block;
@@ -40,6 +41,7 @@ h2 {
 	margin: 5px 0 10px 0;
 	position: relative;
 	right: 2px;
+	padding-left: 30px;
 }
 
 .text-document h2 {
@@ -133,6 +135,7 @@ letter-spacing: normal;
 #slogan h1 {
 	color: #355DA6;
 	font: 16pt "myriad-pro",sans-serif;
+	letter-spacing: normal;
 }
 
 #slogan h2 {
@@ -169,7 +172,7 @@ dl.portlet ul.navTree li a:hover {
     color: #999;
 }
 
-dl.portlet ul.navTree .navTreeCurrentItem {
+dl.portlet ul.navTree .navTreeCurrentItem, dl.portlet ul.navTree .navTreeItemInPath {
 	color: #F26722 !important;
 }
 

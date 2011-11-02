@@ -34,7 +34,7 @@ body {
 #slogan {
 	float: right;
 	position: relative;
-	width: 43%;
+	width: 50%;
 	top: 60%;
 }
 
@@ -530,13 +530,16 @@ div.carousel-body p {
 .carousel-pager a {
 	
 }
-.carousel-pager-item,
+.carousel-pager-item, .carousel-pager-item:link,
 .carousel-pager-button-prev,
 .carousel-pager-button-next {
     background-color: white;
     padding: 1;
 	font-size: 6px;
+	color: white;
 }
+
+
 .carousel-pager a.carousel-pager-item-active {
     background-color: #EF662D;
     color: #EF662D;
@@ -662,7 +665,7 @@ padding: 0 0 0 0;
 }
 
 
-.section-about-us #collage div.collage_type_topic.collage_view_summary p.tileBody {
+.section-about-us #collage div.collage_type_topic.collage_view_summary div.tileItem p.tileBody {
 	color: #333;
 	width: 500px;
 }
