@@ -305,8 +305,8 @@ dl.portlet ul.navTreeLevel1 .navTreeItem {
 dl.portlet ul.navTree .navTreeCurrentItem {
     background-color: white;
     border-left: none;
-    margin-left: 0;
-    margin-right: 0;
+	margin-left: 0;
+	margin-right: 0;
 }
 
 /* @end */
@@ -771,9 +771,30 @@ margin: 0;
   display: none;
 }
 
+
+.section-projects dl.portlet ul.navTreeLevel0 li.navTreeFolderish  {
+background: url(../images/greyarrow.png) no-repeat left 15px ;
+padding-left: 13px;
+}
+
+.section-projects dl.portlet ul.navTreeLevel0 li.navTreeFolderish .navTreeCurrentItem {
+	background: white url(../images/orangearrow.png) no-repeat left 6px ;
+	padding-left: 13px;
+}
+.section-projects dl.portlet ul.navTreeLevel0 ul.navTreeLevel1 .navTreeCurrentItem {
+	background: none;
+}
+.section-projects dl.portlet ul.navTreeLevel0 ul.navTreeLevel1 li {
+	background: none;
+	padding-left: 0;
+}
+.section-projects dl.portlet ul.navTreeLevel0  li.navTreeItemInPath {
+	background: white url(../images/orangearrow.png) no-repeat left 15px ;
+}
+
 .section-projects dl.portlet ul.navTree .navTreeCurrentItem {
-	border-left: none;
-    margin-left: 0;
-    margin-right: 0;
-	background: url(../images/orangearrow.png) left center white;
+    background-color: white;
+    border-left: none;
+	margin-left: -13px;
+	margin-right: 0;
 }
