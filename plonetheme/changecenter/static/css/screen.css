@@ -34,8 +34,8 @@ body {
 #slogan {
 	float: right;
 	position: relative;
-	width: 52%;
-	top: 27%;
+	width: 43%;
+	top: 60%;
 }
 
 
@@ -769,4 +769,11 @@ margin: 0;
 
 #document-action-print + #document-action-print {
   display: none;
+}
+
+.section-projects dl.portlet ul.navTree .navTreeCurrentItem {
+	border-left: none;
+    margin-left: 0;
+    margin-right: 0;
+	background: url(../images/orangearrow.png) left center white;
 }
