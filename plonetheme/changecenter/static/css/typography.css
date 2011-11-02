@@ -6,7 +6,7 @@
 /* @group General Styles */
 
 a:link, a:visited {
-color: none !important;
+color: #666 !important;
 }
 
 .section-center-for-institutional-and-social-change #content h1 {
