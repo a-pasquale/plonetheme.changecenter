@@ -158,7 +158,7 @@ dl.portlet ul.navTree li a:hover {
 }
 
 dl.portlet ul.navTree li a:visited {
-    color: #999 !important;
+    color: #999;
 }
 
 dl.portlet ul.navTree .navTreeCurrentItem {
