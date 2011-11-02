@@ -6,7 +6,7 @@
 /* @group General Styles */
 
 a:link, a:visited {
-color: #666 !important;
+color: #666;
 }
 
 .section-center-for-institutional-and-social-change #content h1 {
@@ -80,8 +80,7 @@ border-bottom: none !important;
     color: #355DA6 !important;
 }
 
-#content p a:visited,
-dl.portlet a:visited {
+#content p a:visited {
     color: #355DA6 !important;
     border-bottom: none;
 }
