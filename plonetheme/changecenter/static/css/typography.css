@@ -278,3 +278,7 @@ body.section-news #collage  div.collage_type_topic.collage_view_summary h3.tileH
 .template-folder_full_view #content div.description, .template-folder_full_view #content div.description {
 		color: #999999;
 	}
+	
+#content p.tileBody {
+	margin-bottom: 0;
+}
