@@ -154,12 +154,12 @@ dl.portlet ul.navTree li a {
 }
 
 dl.portlet ul.navTree li a:hover {
-    color: #355DA6 !important;
+    color: #F26722 !important;
 }
 
 
 dl.portlet ul.navTree .navTreeCurrentItem {
-	color: #F26722;
+	color: #F26722 !important;
 }
 
 #portlets-above dt.portletHeader {
