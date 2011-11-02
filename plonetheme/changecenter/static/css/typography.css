@@ -81,6 +81,11 @@ border-bottom: none !important;
     border-bottom: none;
 }
 
+#content a:visited{
+    color: #355DA6 !important;
+    border-bottom: none;
+}
+
 #content p a:visited {
     color: #355DA6;
     border-bottom: none;
