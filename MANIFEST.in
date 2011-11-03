@@ -1,0 +1,2 @@
+recursive-include docs *
+global-exclude *py[co], *mo
